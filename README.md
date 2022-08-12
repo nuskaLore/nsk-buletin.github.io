@@ -1,1 +1,1 @@
-https://nuskalore.github.io/nuskaLoreRLC060.github.io/
+https://nuskalore.github.io/nsk-buletin.github.io/
