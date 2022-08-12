@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('../assets/img/Cover.jpg');
+    background-image: url('/background.jpg');
     height: 100vh;
     display: grid;
     place-items: center center;

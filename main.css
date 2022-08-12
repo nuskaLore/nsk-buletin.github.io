@@ -44,7 +44,7 @@ nav  {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('../assets/img/Cover.jpg');
+    background-image: url('/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
