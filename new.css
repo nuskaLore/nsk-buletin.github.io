@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('/background.jpg');
+    background-image: url('https://github.com/nuskaLore/nsk-buletin.github.io/blob/main/background.jpg?raw=true');
     height: 100vh;
     display: grid;
     place-items: center center;
