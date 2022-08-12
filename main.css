@@ -44,7 +44,7 @@ nav  {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('/background.jpg');
+    background-image: url('https://github.com/nuskaLore/nsk-buletin.github.io/blob/main/background.jpg?raw=true');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
