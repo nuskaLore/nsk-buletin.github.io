@@ -37,7 +37,7 @@ body {
 
 body {
     background-color: #000000;
-    height: 100vh;
+    height: 10vh;
     display: grid;
     place-items: center center;
     font-family: 'Noto Sans JP', sans-serif;
