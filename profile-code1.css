@@ -1,0 +1,50 @@
+<style type="text/css">
+
+/*Cleaner*/
+#shop header #header { display:none !important; }
+html{background:none;}
+body table {background-color:transparent} 
+body table td {background-color: transparent;}
+body{background: url("#") no-repeat scroll 50% 50%  #000;background-attachment:fixed;}
+a:link, a:active, a:visited {color:#DDDDDD !important;}
+a:hover { color:#e900b6 !important;}
+/*Eraser*/
+div.SCMainAdSpace,div.SCMainHeaderPanel{display:none;}
+/*a#ctl00_oCPH1_lnkProfPicLink {visibility:hidden;}*/
+/* Tool Bar */
+div.MPToolsBar{ margin: 0 0 0 0; position: relative; left: 370px; width: 604px; top:-250px;/*background:url(#) no-repeat transparent !important*/;color:#EEE !important; text-shadow:2px 3px 2px #000; height:32px;padding-top:35px;}
+input.MPSearchText{width:142px;}
+.mpusername{margin-left:45px;}
+#ctl00_pnlTools > form > div { float:left !important;}
+/*a.MainNavLink,a.MainNavLink:visited{color:#DDD !important; text-shadow:2px 3px 2px #000;font-family:"Macondo";margin-right:6px;font-size:12px;}
+a.MainNavLink:hover{color:#7645c2 !important;}*/
+a.MainNavLink { text-shadow:2px 3px 2px #000;font-family:"Macondo";margin-right:6px;font-size:12px;}
+/* content here */
+div#ctl00_oMasterPanelSizer{margin-top:327px !important;}
+/*titlebars*/
+table#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:first-of-type, #ctl00_oCPH1_tbDetailsSection > tr > td  > div:first-of-type, #ctl00_oCPH1_pnlSexyStuff > div:first-of-type, #ctl00_oCPH1_pnlWebGifts > div:first-of-type, #ctl00_oCPH1_tbDetailsSection > tr > td:last-of-type  > div:nth-of-type(3), #ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div, #ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div,div.MPToolsBar
+{ border-radius:10px 10px 0 0; padding-left:15px;
+border: 1px solid rgba(0,0,0,0.5);
+   background: rgba(0,0,0,0.25) !important;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px #e900b6, inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px #e900b6, inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px #e900b6, inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px #e900b6, inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+font-family:Macondo;font-size:14px;text-shadow:1px 1px #e900b6;
+}
+table#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:first-of-type > img, #ctl00_oCPH1_tbDetailsSection > tr > td  > div:first-of-type > img,#ctl00_oCPH1_pnlSexyStuff > div:first-of-type > img, #ctl00_oCPH1_pnlWebGifts > div:first-of-type > img , #ctl00_oCPH1_tbDetailsSection > tr > td:last-of-type  > div:nth-of-type(3) > img, #ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img, #ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div > img{ display:none; }
+/*contents*/
+table#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:last-of-type,#ctl00_oCPH1_tbDetailsSection > tr > td  > div:nth-last-of-type(3), #ctl00_oCPH1_pnlSexyStuff > div:last-of-type, #ctl00_oCPH1_pnlWebGifts,#ctl00_oCPH1_tbDetailsSection > tr > td:last-of-type  > div:nth-of-type(4),#ctl00_oCPH1_tbFriendsSection > tr:nth-of-type(2) > td > div, #ctl00_oCPH1_tbCommentsSection > tr:nth-of-type(2) > td
+{border: 1px solid rgba(0,0,0,0.5);
+border-radius:0 0 10px 10px;margin-top: -1px !important;background:none repeat scroll 0 0 #e900b6; padding:10px !important;
+box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -1px #e900b6, inset 0 -10px rgba(255,255,255,0.2), inset 0 -10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -1px r#e900b6, inset 0 -10px rgba(255,255,255,0.2), inset 0 -10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -1px #e900b6, inset 0 -10px rgba(255,255,255,0.2), inset 0 -10px 20px r#e900b6, inset 0 -15px 30px rgba(0,0,0,0.3);
+-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -1px #e900b6, inset 0 -10px rgba(255,255,255,0.2), inset 0 -10px 20px #e900b6, inset 0 -15px 30px rgba(0,0,0,0.3); color:#EEE; text-shadow:1px 1px r#e900b6;
+}
+#ctl00_oCPH1_pnlWebGifts { border-radius:10px; padding:0px !important;}
+div.MPToolsBar{ background: #e900b6) !important; border-radius:20px;}
+#ctl00_oCPH1_tbDetailsSection > tr > td  > div img { opacity: 0.8; }
+#ctl00_oCPH1_tblPComments > tbody > tr > td:last-of-type img { max-width:600px;}
+
+</style>
