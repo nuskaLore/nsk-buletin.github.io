@@ -27,6 +27,7 @@ body {
     margin-left: 0px; 
     margin-right: 0px;
     padding: 0;
+    background-color: black;
 }
 
 
@@ -41,7 +42,7 @@ body {
     display: grid;
     place-items: center center;
     font-family: 'Noto Sans JP', sans-serif;
-    background-image: url('https://github.com/nuskaLore/nsk-buletin.github.io/blob/main/background.jpg?raw=true');
+    background-color: black;
 }
 
 .nav  {
