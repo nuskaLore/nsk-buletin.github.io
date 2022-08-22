@@ -1,0 +1,159 @@
+<style type="text/css">
+
+/*Cleaner*/
+#shop header #header {
+    display: none !important;
+}
+
+html {
+    background: none;
+}
+
+body table {
+    background-color: transparent
+}
+
+body table td {
+    background-color: transparent;
+}
+
+body {
+    background: url("#") no-repeat scroll 50% 50% #000;
+    background-attachment: fixed;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: #DDDDDD !important;
+}
+
+a:hover {
+    color: #9b4989 !important;
+}
+
+/*Eraser*/
+div.SCMainAdSpace,
+div.SCMainHeaderPanel {
+    display: none;
+}
+
+/*a#ctl00_oCPH1_lnkProfPicLink {visibility:hidden;}*/
+/* Tool Bar */
+div.MPToolsBar {
+    margin: 0 0 0 0;
+    position: relative;
+    left: 370px;
+    width: 604px;
+    top: -550px;
+    /*background:url(#) no-repeat transparent !important*/
+    ;
+    color: #EEE !important;
+    text-shadow: 2px 3px 2px #000;
+    height: 32px;
+    padding-top: 35px;
+}
+
+input.MPSearchText {
+    width: 142px;
+}
+
+.mpusername {
+    margin-left: 45px;
+}
+
+#ctl00_pnlTools>form>div {
+    float: left !important;
+}
+
+/*a.MainNavLink,a.MainNavLink:visited{color:#DDD !important; text-shadow:2px 3px 2px #000;font-family:"Macondo";margin-right:6px;font-size:12px;}
+a.MainNavLink:hover{color:#7645c2 !important;}*/
+a.MainNavLink {
+    text-shadow: 2px 3px 2px #000;
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    margin-right: 6px;
+    font-size: 12px;
+    src: url(https://fonts.gstatic.com/s/biorhyme/v12/1cXwaULHBpDMsHYW_ExBr1Q.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* content here */
+div#ctl00_oMasterPanelSizer {
+    margin-top: 327px !important;
+}
+
+/*titlebars*/
+table#MSCodesFixer>tbody>tr>td>table>tbody:first-of-type>tr>td>div:first-of-type,
+#ctl00_oCPH1_tbDetailsSection>tr>td>div:first-of-type,
+#ctl00_oCPH1_pnlSexyStuff>div:first-of-type,
+#ctl00_oCPH1_pnlWebGifts>div:first-of-type,
+#ctl00_oCPH1_tbDetailsSection>tr>td:last-of-type>div:nth-of-type(3),
+#ctl00_oCPH1_tbFriendsSection>tr:first-of-type>td>div,
+#ctl00_oCPH1_tbCommentsSection>tr:first-of-type>td>div,
+div.MPToolsBar {
+    border-radius: 5px 5px 0 0;
+    padding-left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25) !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px #9b4989, inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px #9b4989, inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px #9b4989, inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px #9b4989, inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 14px;
+    text-shadow: 0px 0px #000;
+}
+
+table#MSCodesFixer>tbody>tr>td>table>tbody:first-of-type>tr>td>div:first-of-type>img,
+#ctl00_oCPH1_tbDetailsSection>tr>td>div:first-of-type>img,
+#ctl00_oCPH1_pnlSexyStuff>div:first-of-type>img,
+#ctl00_oCPH1_pnlWebGifts>div:first-of-type>img,
+#ctl00_oCPH1_tbDetailsSection>tr>td:last-of-type>div:nth-of-type(3)>img,
+#ctl00_oCPH1_tbFriendsSection>tr:first-of-type>td>div>img,
+#ctl00_oCPH1_tbCommentsSection>tr:first-of-type>td>div>img {
+    display: none;
+}
+
+/*contents*/
+table#MSCodesFixer>tbody>tr>td>table>tbody:first-of-type>tr>td>div:last-of-type,
+#ctl00_oCPH1_tbDetailsSection>tr>td>div:nth-last-of-type(3),
+#ctl00_oCPH1_pnlSexyStuff>div:last-of-type,
+#ctl00_oCPH1_pnlWebGifts,
+#ctl00_oCPH1_tbDetailsSection>tr>td:last-of-type>div:nth-of-type(4),
+#ctl00_oCPH1_tbFriendsSection>tr:nth-of-type(2)>td>div,
+#ctl00_oCPH1_tbCommentsSection>tr:nth-of-type(2)>td {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 10px 10px;
+    margin-top: -1px !important;
+    background: none repeat scroll 0 0 #9b4989;
+    padding: 10px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px #9b4989, inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px r#9b4989, inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px #9b4989, inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px r#9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px #9b4989, inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px #9b4989, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    color: #EEE;
+    text-shadow: 1px 1px r#9b4989;
+}
+
+#ctl00_oCPH1_pnlWebGifts {
+    border-radius: 5px;
+    padding: 0px !important;
+}
+
+div.MPToolsBar {
+    background: transparent !important;
+    border-radius: 5px;
+}
+
+#ctl00_oCPH1_tbDetailsSection>tr>td>div img {
+    opacity: 0.8;
+}
+
+#ctl00_oCPH1_tblPComments>tbody>tr>td:last-of-type img {
+    max-width: 0px;
+}
+
+</style>
